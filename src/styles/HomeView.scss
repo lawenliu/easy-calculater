@@ -1,0 +1,30 @@
+.result {
+  font-weight: bold;
+}
+
+.result--green {
+  composes: result;
+  color: rgb(25,200,25);
+}
+
+.tiger {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-top: 1.5rem;
+}
+
+.last-result {
+	composes: result;
+	color: rgb(230, 20, 40);
+}
+
+.operator {
+	composes: result;
+	color: rgb(30, 20, 140);
+}
+
+.new-number {
+	composes: result;
+	color: rgb(30, 220, 40);
+}
